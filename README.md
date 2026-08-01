@@ -127,7 +127,7 @@ PCL-CE-2.15.0/
 
 ## 统计
 
-![Alt](https://repobeats.axiom.co/api/embed/3e46296e6e3a134991a783480fd2f62723bb0353.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/e2ed0c3a10e2786a8285c60c67388e0c132c6fd4.svg "Repobeats analytics image")
 
 [![Star History Chart](https://api.star-history.com/svg?repos=N1NA-MMK/Momoka-Craft-Launcher&type=Date)](https://www.star-history.com/#N1NA-MMK/Momoka-Craft-Launcher&Date)
 
