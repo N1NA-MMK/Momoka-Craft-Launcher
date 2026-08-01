@@ -1468,7 +1468,7 @@
     <sys:String x:Key="Launch.Error.Title">Launch failed</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.HidePrompt">To permanently hide this notice, enter the correct MCL development organization name.</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.InputTitle">Enter the MCL development organization name</sys:String>
-    <sys:String x:Key="Launch.Right.CommunityHint.Message">You are using MCL (Momoka Craft Launcher)! This version is a secondary development based on PCL Community Edition, mainly adjusting visual and interactive experience, and differs from the original version in its development path.&#xA;&#xA;If you downloaded the MCL by accident, we strongly recommend downloading the original PCL version for long-term use, as this distribution may not be user-friendly for newcomers.&#xA;Additionally, please submit MCL issues to the MCL repository, and do not report MCL issues to the original repository!</sys:String>
+    <sys:String x:Key="Launch.Right.CommunityHint.Message">You are using MCL (PCL-Momoka)! This version is a secondary development based on PCL Community Edition, mainly adjusting visual and interactive experience, and differs from the original version in its development path.&#xA;&#xA;If you downloaded the MCL by accident, we strongly recommend downloading the original PCL version for long-term use, as this distribution may not be user-friendly for newcomers.&#xA;Additionally, please submit MCL issues to the MCL repository, and do not report MCL issues to the original repository!</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.Title">MCL notice</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.WrongInput">Not quite right...</sys:String>
     <sys:String x:Key="Launch.Right.Log.Title">Launch log</sys:String>
@@ -2459,7 +2459,7 @@
 
     <sys:String x:Key="Setup.About.Community.Info">The development team of PCL Community Edition!</sys:String>
     <sys:String x:Key="Setup.About.Community.Name">PCL Community</sys:String>
-    <sys:String x:Key="Setup.About.MCLAuthor.Info">Author of Momoka Craft Launcher</sys:String>
+    <sys:String x:Key="Setup.About.MCLAuthor.Info">Author of PCL-Momoka</sys:String>
     <sys:String x:Key="Setup.About.MCLAuthor.Name">N1NA-MMK</sys:String>
     <sys:String x:Key="Setup.About.Contributors.Title">Contributors</sys:String>
     <sys:String x:Key="Setup.About.Contributors.ViewMore">View more</sys:String>
@@ -3544,7 +3544,7 @@
     <sys:String x:Key="Update.Error.Sha256Mismatch">Update file SHA256 mismatch. Expected: {0}, actual: {1}</sys:String>
     <sys:String x:Key="Update.Error.UnableToGetUpdate">Unable to get update information</sys:String>
     <sys:String x:Key="Update.Error.UpdateBlocked">Update failed</sys:String>
-    <sys:String x:Key="Update.Error.UpdateBlockedMessage">MCL cannot update because it was blocked by Windows Security or does not have sufficient permissions.&#xA;Please add the MCL folder to the exclusion list, or manually replace the current file with {0}PCL\Momoka Craft Launcher.exe!</sys:String>
+    <sys:String x:Key="Update.Error.UpdateBlockedMessage">MCL cannot update because it was blocked by Windows Security or does not have sufficient permissions.&#xA;Please add the MCL folder to the exclusion list, or manually replace the current file with {0}PCL\PCL-Momoka.exe!</sys:String>
     <sys:String x:Key="Update.Service.PclCe">MCL service</sys:String>
     <sys:String x:Key="Update.Title">Launcher update</sys:String>
 

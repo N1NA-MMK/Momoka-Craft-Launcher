@@ -4,7 +4,7 @@
 
 <img src="Plain Craft Launcher 2/Images/icon.ico" alt="Logo" width="80" height="80">
 
-# Momoka Craft Launcher
+# PCL-Momoka
 
 [![Stars](https://img.shields.io/github/stars/N1NA-MMK/Momoka-Craft-Launcher?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=stars&labelColor=444444&color=eac54f)](https://github.com/N1NA-MMK/Momoka-Craft-Launcher/)
 ![GitHub Release](https://img.shields.io/github/v/release/N1NA-MMK/Momoka-Craft-Launcher?label=release&logo=github&style=for-the-badge)
@@ -23,7 +23,7 @@
 
 </div>
 
-Momoka Craft Launcher（簡稱 MCL）是基於 [PCL 社群版](https://github.com/PCL-Community/PCL-CE)（PCL CE）二次開發的版本，主要在視覺與互動體驗上進行調整，未對核心功能做大幅改動。
+PCL-Momoka（簡稱 MCL）是基於 [PCL 社群版](https://github.com/PCL-Community/PCL-CE)（PCL CE）二次開發的版本，主要在視覺與互動體驗上進行調整，未對核心功能做大幅改動。
 
 ## 功能特性
 
@@ -63,7 +63,7 @@ Momoka Craft Launcher（簡稱 MCL）是基於 [PCL 社群版](https://github.co
 
 ---
 
-Momoka Craft Launcher 是基於 PCL 社群版的二次開發版本，與原版 PCL 作者龍騰貓躍無直接隸屬關係。
+PCL-Momoka 是基於 PCL 社群版的二次開發版本，與原版 PCL 作者龍騰貓躍無直接隸屬關係。
 
 特別感謝：
 - [龍騰貓躍](https://github.com/Meloong-Git) — 原版 PCL 的開發與開源

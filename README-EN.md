@@ -4,7 +4,7 @@
 
 <img src="Plain Craft Launcher 2/Images/icon.ico" alt="Logo" width="80" height="80">
 
-# Momoka Craft Launcher
+# PCL-Momoka
 
 [![Stars](https://img.shields.io/github/stars/N1NA-MMK/Momoka-Craft-Launcher?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=stars&labelColor=444444&color=eac54f)](https://github.com/N1NA-MMK/Momoka-Craft-Launcher/)
 ![GitHub Release](https://img.shields.io/github/v/release/N1NA-MMK/Momoka-Craft-Launcher?label=release&logo=github&style=for-the-badge)
@@ -23,7 +23,7 @@
 
 </div>
 
-Momoka Craft Launcher (MCL) is a secondary developed version based on [PCL Community Edition](https://github.com/PCL-Community/PCL-CE) (PCL CE), focusing mainly on visual and interaction adjustments without major changes to core functionality.
+PCL-Momoka (MCL) is a secondary developed version based on [PCL Community Edition](https://github.com/PCL-Community/PCL-CE) (PCL CE), focusing mainly on visual and interaction adjustments without major changes to core functionality.
 
 ## Features
 
@@ -89,7 +89,7 @@ Build artifacts are located in `Plain Craft Launcher 2\bin\<Configuration>-<Plat
 
 ---
 
-Momoka Craft Launcher is a secondary developed version based on PCL Community Edition, with no direct affiliation with the original PCL author 龙腾猫跃.
+PCL-Momoka is a secondary developed version based on PCL Community Edition, with no direct affiliation with the original PCL author 龙腾猫跃.
 
 Special thanks to:
 - [龙腾猫跃](https://github.com/Meloong-Git) — Development and open-source of the original PCL

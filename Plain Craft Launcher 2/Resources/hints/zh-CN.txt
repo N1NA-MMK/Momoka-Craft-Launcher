@@ -985,7 +985,7 @@ MCL 支持导入 HMCL 档案。
 
 MCL 基于 PCL 社区版开发，主要调整视觉与交互体验，未对核心功能做大幅改动。
 
-MCL 全称是 Momoka Craft Launcher。
+MCL 全称是 PCL-Momoka。
 
 你下载 Minecraft 这么快得多亏了 bangbang93 的 BMCLAPI！
 

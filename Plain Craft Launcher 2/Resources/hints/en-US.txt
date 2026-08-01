@@ -985,7 +985,7 @@ MCL supports importing HMCL archives.
 
 MCL is based on PCL Community Edition, mainly adjusting visual and interactive experience without major core function changes.
 
-MCL stands for Momoka Craft Launcher.
+MCL stands for PCL-Momoka.
 
 Your Minecraft downloads are so fast thanks to bangbang93's BMCLAPI!
 

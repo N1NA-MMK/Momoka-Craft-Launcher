@@ -1,0 +1,4 @@
+rename: 项目名从 Momoka Craft Launcher 改为 PCL-Momoka
+
+基于PCL二次开发的项目须以PCL开头命名。
+GitHub仓库名(Momoka-Craft-Launcher)保持不变。

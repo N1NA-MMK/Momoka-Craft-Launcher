@@ -1468,7 +1468,7 @@
     <sys:String x:Key="Launch.Error.Title">启动失败</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.HidePrompt">若要永久隐藏此提示，请输入正确的 MCL 开发组织名称。</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.InputTitle">输入 MCL 开发组织名称</sys:String>
-    <sys:String x:Key="Launch.Right.CommunityHint.Message">你正在使用 MCL（Momoka Craft Launcher）！此版本基于 PCL 社区版二次开发，主要调整视觉与交互体验，与原版维护路线不同。&#xA;&#xA;如果你是意外下载到了 MCL ，我们十分建议您下载原版 PCL 长期使用，此发行版本对新手用户体验可能不友好。&#xA;此外， MCL 的问题请向 MCL 的仓库提交 Issue，不要向官方仓库反馈 MCL 的问题哦！</sys:String>
+    <sys:String x:Key="Launch.Right.CommunityHint.Message">你正在使用 MCL（PCL-Momoka）！此版本基于 PCL 社区版二次开发，主要调整视觉与交互体验，与原版维护路线不同。&#xA;&#xA;如果你是意外下载到了 MCL ，我们十分建议您下载原版 PCL 长期使用，此发行版本对新手用户体验可能不友好。&#xA;此外， MCL 的问题请向 MCL 的仓库提交 Issue，不要向官方仓库反馈 MCL 的问题哦！</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.Title">MCL 提示</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.WrongInput">不太对哦……</sys:String>
     <sys:String x:Key="Launch.Right.Log.Title">启动日志</sys:String>
@@ -2459,7 +2459,7 @@
 
     <sys:String x:Key="Setup.About.Community.Info">PCL 社区版的开发团队！</sys:String>
     <sys:String x:Key="Setup.About.Community.Name">PCL Community</sys:String>
-    <sys:String x:Key="Setup.About.MCLAuthor.Info">Momoka Craft Launcher 的作者</sys:String>
+    <sys:String x:Key="Setup.About.MCLAuthor.Info">PCL-Momoka 的作者</sys:String>
     <sys:String x:Key="Setup.About.MCLAuthor.Name">N1NA-MMK</sys:String>
     <sys:String x:Key="Setup.About.Contributors.Title">贡献者们</sys:String>
     <sys:String x:Key="Setup.About.Contributors.ViewMore">查看更多</sys:String>
@@ -3544,7 +3544,7 @@
     <sys:String x:Key="Update.Error.Sha256Mismatch">更新文件 SHA256 不正确，应该为 {0}，实际为 {1}</sys:String>
     <sys:String x:Key="Update.Error.UnableToGetUpdate">无法获取更新</sys:String>
     <sys:String x:Key="Update.Error.UpdateBlocked">更新失败</sys:String>
-    <sys:String x:Key="Update.Error.UpdateBlockedMessage">由于被 Windows 安全中心拦截，或者存在权限问题，导致 MCL 无法更新。&#xA;请将 MCL 所在文件夹加入白名单，或者手动用 {0}PCL\Momoka Craft Launcher.exe 替换当前文件！</sys:String>
+    <sys:String x:Key="Update.Error.UpdateBlockedMessage">由于被 Windows 安全中心拦截，或者存在权限问题，导致 MCL 无法更新。&#xA;请将 MCL 所在文件夹加入白名单，或者手动用 {0}PCL\PCL-Momoka.exe 替换当前文件！</sys:String>
     <sys:String x:Key="Update.Service.PclCe">MCL 服务</sys:String>
     <sys:String x:Key="Update.Title">启动器更新</sys:String>
 

@@ -25,9 +25,9 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <ApplicationManifest>app.manifest</ApplicationManifest>
         <ApplicationIcon>Images\icon.ico</ApplicationIcon>
-        <AssemblyTitle>Momoka Craft Launcher</AssemblyTitle>
+        <AssemblyTitle>PCL-Momoka</AssemblyTitle>
         <Description>Minecraft 启动器 (基于 PCL 社区版二次开发)</Description>
-        <Product>Momoka Craft Launcher</Product>
+        <Product>PCL-Momoka</Product>
         <Copyright>Copyright © 龙腾猫跃 2016. All Rights Reserved.</Copyright>
         <AssemblyVersion>2.15.0.0</AssemblyVersion>
         <FileVersion>2.15.0.0</FileVersion>
