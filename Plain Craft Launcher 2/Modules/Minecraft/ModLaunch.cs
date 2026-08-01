@@ -1175,6 +1175,12 @@ public static class ModLaunch
                 if (response.StatusCode == HttpStatusCode.Forbidden)
                 {
                     ModBase.Log($"正版验证 Step 4 汇报 403：{result}");
+                    // 区分应用注册无效与 IP 异常
+                    if (result.Contains("Invalid app registration", StringComparison.OrdinalIgnoreCase))
+                    {
+                        throw new Exception("应用注册无效：Azure 应用注册配置不正确（缺少 XboxLive.signin 权限或未启用公共客户端流）。" +
+                            "\n请在 Azure Portal 检查 Client ID 对应的应用注册，参见 https://aka.ms/AppRegInfo");
+                    }
                     throw new Exception(Lang.Text("Minecraft.Launch.Login.Microsoft.AbnormalIp"));
                 }
                 if (response.StatusCode == HttpStatusCode.ServiceUnavailable)

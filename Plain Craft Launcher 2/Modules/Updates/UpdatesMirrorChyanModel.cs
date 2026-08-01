@@ -13,7 +13,7 @@ public class UpdatesMirrorChyanModel : IUpdateSource // Mirror 酱的更新格�
     private const string mirrorChyanBaseUrl =
         "https://mirrorchyan.com/api/resources/{cid}/latest?cdk={cdk}&os=win&arch={arch}&channel={channel}";
 
-    private const string myCid = "PCL2-CE";
+    private const string myCid = "momoka-craft-launcher";
     public string SourceName { get; set; } = "MirrorChyan";
 
     public bool IsAvailable()

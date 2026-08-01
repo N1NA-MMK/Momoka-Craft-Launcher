@@ -48,7 +48,7 @@ public partial class FormMain
                 changelog = Lang.Text("Main.UpdateLog.Empty");
             if (ModMain.MyMsgBoxMarkdown(changelog,
                     Lang.Text("Main.UpdateLog.Title", ModBase.versionBranchName, ModBase.versionBaseName), Lang.Text("Common.Action.Confirm"), Lang.Text("Main.UpdateLog.FullChangelog")) ==
-                2) ModBase.OpenWebsite("https://github.com/PCL-Community/PCL2-CE/releases");
+                2) ModBase.OpenWebsite("https://github.com/N1NA-MMK/Momoka-Craft-Launcher/releases");
         }, "UpdateLog Output");
     }
 
@@ -171,10 +171,9 @@ public partial class FormMain
             AddResizer();
         else
             RemoveResizer();
-        // PLC 彩蛋
+        // MLC 彩蛋
         if (RandomUtils.NextInt(1, 1000) == 233)
-            ShapeTitleLogo.Data = (Geometry)new GeometryConverter().ConvertFromString(
-                "M26,29 v-25 h6 a7,7 180 0 1 0,14 h-6 M83,6.5 a10,11.5 180 1 0 0,18 M48,2.5 v24.5 h13.5");
+            ShapeTitleLogo.Text = "MLC";
         // 加载窗口
 
         ThemeManager.ThemeRefresh();
@@ -261,7 +260,7 @@ public partial class FormMain
                         $"{hint}{"\r\n"}{"\r\n"}{Lang.Text("Main.SpecialVersion.HideHintNotice")}",
                         Lang.Text("Main.SpecialVersion.Title"), Lang.Text("Main.SpecialVersion.IUnderstand"), Lang.Text("Main.SpecialVersion.OpenDownloadPageAndExit"), isWarn: true, button2Action: () =>
                         {
-                            ModBase.OpenWebsite("https://github.com/PCL-Community/PCL2-CE/releases/latest");
+                            ModBase.OpenWebsite("https://github.com/N1NA-MMK/Momoka-Craft-Launcher/releases/latest");
                             EndProgram(false);
                         });
                 }
@@ -607,7 +606,7 @@ public partial class FormMain
             if (!isLogShown)
             {
                 ModBase.FeedbackInfo();
-                ModBase.Log("请在 https://github.com/PCL-Community/PCL2-CE/issues 提交错误报告，以便于社区解决此问题！（这也有可能是原版 PCL 的问题）");
+                ModBase.Log("请在 https://github.com/N1NA-MMK/Momoka-Craft-Launcher/issues 提交错误报告！");
                 isLogShown = true;
                 ModBase.ShellOnly(LogWrapper.CurrentLogger.CurrentLogFiles.Last());
             }

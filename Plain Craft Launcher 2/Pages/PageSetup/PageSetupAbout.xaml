@@ -24,6 +24,7 @@
                         <RowDefinition Height="45" />
                         <RowDefinition Height="45" />
                         <RowDefinition Height="45" />
+                        <RowDefinition Height="45" />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="40" />
@@ -34,11 +35,18 @@
                         Grid.Row="0"
                         Grid.Column="1"
                         Margin="-5,0,15,0"
+                        Info="{DynamicResource Setup.About.MCLAuthor.Info}"
+                        IsHitTestVisible="False"
+                        Title="{DynamicResource Setup.About.MCLAuthor.Name}" />
+                    <local:MyListItem
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Margin="-5,0,15,0"
                         Info="{DynamicResource Setup.About.OriginalAuthor.Info}"
                         IsHitTestVisible="False"
                         Title="{DynamicResource Setup.About.OriginalAuthor.Name}" />
                     <local:MyListItem
-                        Grid.Row="1"
+                        Grid.Row="2"
                         Grid.Column="1"
                         Margin="-5,0,15,0"
                         Info="{DynamicResource Setup.About.Community.Info}"
@@ -46,7 +54,7 @@
                         Title="{DynamicResource Setup.About.Community.Name}" />
                     <local:MyListItem
                         x:Name="ItemAboutPcl"
-                        Grid.Row="2"
+                        Grid.Row="3"
                         Grid.Column="1"
                         Margin="-5,0,15,0"
                         Info="{DynamicResource Setup.About.Version.Info}"
@@ -54,9 +62,9 @@
                         Title="{Binding Name}" />
                     <Image
                         x:Name="ImgPCLLogo"
-                        Grid.Row="2"
+                        Grid.Row="3"
                         Margin="3" MouseLeftButtonDown="ImgPCLLogo_Click"
-                        Source="/Plain Craft Launcher 2;component/Images/Heads/Logo-CE.png">
+                        Source="/Plain Craft Launcher 2;component/Images/Heads/Logo.png">
                         <Image.Clip>
                             <EllipseGeometry
                                 Center="17 17"
@@ -66,6 +74,17 @@
                     </Image>
                     <Image
                         Grid.Row="0"
+                        Margin="3"
+                        Source="/Plain Craft Launcher 2;component/Images/Heads/N1NA-MMK.jpg">
+                        <Image.Clip>
+                            <EllipseGeometry
+                                Center="17 17"
+                                RadiusX="17"
+                                RadiusY="17" />
+                        </Image.Clip>
+                    </Image>
+                    <Image
+                        Grid.Row="1"
                         Margin="3"
                         Source="/Plain Craft Launcher 2;component/Images/Heads/LTCat.jpg">
                         <Image.Clip>
@@ -77,25 +96,32 @@
                     </Image>
                     <Image
                         x:Name="ImgPCLCommunity"
-                        Grid.Row="1"  MouseLeftButtonDown="ImgPCLCommunity_Click"
+                        Grid.Row="2"  MouseLeftButtonDown="ImgPCLCommunity_Click"
                         Margin="3"
                         Source="/Plain Craft Launcher 2;component/Images/Heads/PCL-Community.png" />
                     <local:MyButton
                         Grid.Row="0"
                         Grid.Column="2"
                         Height="35"
+                        local:CustomEventService.EventData="https://github.com/N1NA-MMK/Momoka-Craft-Launcher"
+                        local:CustomEventService.EventType="OpenUrl"
+                        Text="{DynamicResource Setup.About.GitHubHome}" />
+                    <local:MyButton
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        Height="35"
                         local:CustomEventService.EventData="https://ifdian.net/a/LTCat"
                         local:CustomEventService.EventType="OpenUrl"
                         Text="{DynamicResource Setup.About.SponsorOriginalAuthor}" />
                     <local:MyButton
-                        Grid.Row="1"
+                        Grid.Row="2"
                         Grid.Column="2"
                         Height="35"
                         local:CustomEventService.EventData="https://github.com/PCL-Community"
                         local:CustomEventService.EventType="OpenUrl"
                         Text="{DynamicResource Setup.About.GitHubHome}" />
                     <local:MyButton
-                        Grid.Row="2"
+                        Grid.Row="3"
                         Grid.Column="2"
                         Height="35"
                         local:CustomEventService.EventData="https://github.com/PCL-Community/PCL2-CE"
@@ -108,7 +134,6 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="45" />
                         <RowDefinition x:Name="RowMcmod" Height="45" />
-                        <RowDefinition Height="45" />
                         <RowDefinition Height="45" />
                         <RowDefinition Height="45" />
                         <RowDefinition Height="45" />
@@ -185,26 +210,11 @@
                         Grid.Column="1"
                         Grid.ColumnSpan="2"
                         Margin="-5,0,0,0"
-                        Info="{DynamicResource Setup.About.SpecialThanks.Info.LinkModule}"
-                        IsHitTestVisible="False"
-                        Title="{DynamicResource Setup.About.SpecialThanks.Name.EasyTier}" />
-                    <local:MyButton
-                        Grid.Row="4"
-                        Grid.Column="2"
-                        Height="35"
-                        local:CustomEventService.EventData="https://easytier.cn"
-                        local:CustomEventService.EventType="OpenUrl"
-                        Text="{DynamicResource Setup.About.SpecialThanks.OpenWebsite}" />
-                    <local:MyListItem
-                        Grid.Row="5"
-                        Grid.Column="1"
-                        Grid.ColumnSpan="2"
-                        Margin="-5,0,0,0"
                         Info="{DynamicResource Setup.About.SpecialThanks.Info.Mcim}"
                         IsHitTestVisible="False"
                         Title="{DynamicResource Setup.About.SpecialThanks.Name.Z0z0r4}" />
                     <local:MyListItem
-                        Grid.Row="6"
+                        Grid.Row="5"
                         Grid.Column="1"
                         Grid.ColumnSpan="2"
                         Margin="-5,0,0,0"
@@ -259,17 +269,6 @@
                     <Image
                         Grid.Row="4"
                         Margin="3"
-                        Source="/Plain Craft Launcher 2;component/Images/Heads/EasyTier.png">
-                        <Image.Clip>
-                            <EllipseGeometry
-                                Center="17 17"
-                                RadiusX="17"
-                                RadiusY="17" />
-                        </Image.Clip>
-                    </Image>
-                    <Image
-                        Grid.Row="5"
-                        Margin="3"
                         Source="/Plain Craft Launcher 2;component/Images/Heads/z0z0r4.png">
                         <Image.Clip>
                             <EllipseGeometry
@@ -279,7 +278,7 @@
                         </Image.Clip>
                     </Image>
                     <Image
-                        Grid.Row="6"
+                        Grid.Row="5"
                         Margin="3"
                         Source="/Plain Craft Launcher 2;component/Images/Heads/Emperormummy.png">
                         <Image.Clip>
@@ -336,7 +335,7 @@
                     <local:MyTextButton
                         Grid.Row="2"
                         HorizontalAlignment="Center"
-                        local:CustomEventService.EventData="https://github.com/PCL-Community/PCL2-CE/graphs/contributors"
+                        local:CustomEventService.EventData="https://github.com/N1NA-MMK/Momoka-Craft-Launcher/graphs/contributors"
                         local:CustomEventService.EventType="OpenUrl"
                         Text="{DynamicResource Setup.About.Contributors.ViewMore}" />
                 </Grid>
@@ -375,7 +374,7 @@
                         <local:MyButton
                             Margin="0,0,20,0"
                             ColorType="Highlight"
-                            local:CustomEventService.EventData="https://github.com/PCL-Community/PCL2-CE"
+                            local:CustomEventService.EventData="https://github.com/N1NA-MMK/Momoka-Craft-Launcher"
                             local:CustomEventService.EventType="OpenUrl"
                             Padding="13,0"
                             Text="{DynamicResource Setup.About.Legal.CommunitySource}" />

@@ -170,8 +170,8 @@ public sealed partial class ThemeService
             ColorTheme.CatBlue => (255, 0, -0.2),
             ColorTheme.DeathBlue => (268, -0.05, -0.1),
             ColorTheme.HmclBlue => (275, -0.03, -0.35),
-            // 粉蓝渐变：以粉色为主色相（330），其余参数中性
-            ColorTheme.PinkBlue => (330, 0.05, 0.0),
+            // 粉蓝渐变：以粉色为主色相（340），其余参数中性
+            ColorTheme.PinkBlue => (340, 0.05, 0.0),
 #if DEBUG
             _ => ((int)theme, 0, 0)
 #else
@@ -219,11 +219,11 @@ public sealed partial class ThemeService
 
     private static CatColorResource[] _CalculateColors(ToneProfile tone, (int hue, double lightAdj, double chromaAdj) args, ColorTheme theme)
     {
-        // 粉蓝渐变主题：色相随明度等级从粉色(330)过渡到蓝色(210)
-        // 低明度等级（L1-L3）偏蓝色，高明度等级（L6-L8）偏粉色，形成粉蓝渐变
+        // 粉蓝渐变主题：深色等级用蓝色(66CCFF, LCh色相246)，浅色等级用粉色(LCh色相340)，分段避免经过紫色色相区
         var isPinkBlue = theme == ColorTheme.PinkBlue;
         double HueForLevel(int level) => isPinkBlue
-            ? 330.0 - (level - 1) * (330.0 - 210.0) / 7.0
+            ? level <= 4 ? 246.0                          // L1-L4: 66CCFF 蓝
+                         : 340.0                          // L5-L8: 粉
             : args.hue;
         return [
             LabColor.FromLch(_AdjustLinear(tone.L1, args.lightAdj * 0.1), _AdjustLinear(tone.C1, args.chromaAdj * 0.25), HueForLevel(1)).ToCatColor("1"),
