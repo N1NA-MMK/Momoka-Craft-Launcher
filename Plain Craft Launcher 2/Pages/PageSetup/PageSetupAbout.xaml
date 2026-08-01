@@ -64,7 +64,7 @@
                         x:Name="ImgPCLLogo"
                         Grid.Row="3"
                         Margin="3" MouseLeftButtonDown="ImgPCLLogo_Click"
-                        Source="/Plain Craft Launcher 2;component/Images/Heads/Logo.png">
+                        Source="/Plain Craft Launcher 2;component/Images/icon.png">
                         <Image.Clip>
                             <EllipseGeometry
                                 Center="17 17"
