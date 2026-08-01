@@ -50,10 +50,19 @@ public partial class PageSetupAbout
 
     private async void LoadContributersAsync()
     {
+        // 先放入默认贡献者（MCL 作者），避免 API 限流时列表为空
+        Contributors.Clear();
+        Contributors.Add(new GitHubContributor
+        {
+            Login = "N1NA-MMK",
+            AvatarUrl = "https://avatars.githubusercontent.com/u/305804938",
+            HtmlUrl = "https://github.com/N1NA-MMK"
+        });
         try
         {
             using (var response = await HttpRequest
-                       .Create("https://api.github.com/repos/N1NA-MMK/Momoka-Craft-Launcher/contributors").SendAsync())
+                       .Create("https://api.github.com/repos/N1NA-MMK/Momoka-Craft-Launcher/contributors")
+                       .SendAsync())
             {
                 response.EnsureSuccessStatusCode();
                 var cos = await response.AsJsonAsync<List<GitHubContributor>>(JsonCompat.SerializerOptions);
@@ -64,6 +73,7 @@ public partial class PageSetupAbout
         }
         catch (Exception ex)
         {
+            // API 限流或网络失败时保留默认贡献者
             ModBase.Log(ex, Lang.Text("Setup.About.Error.LoadContributorsFailed"));
         }
     }
