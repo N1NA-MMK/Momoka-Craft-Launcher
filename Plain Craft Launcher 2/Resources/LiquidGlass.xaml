@@ -1,0 +1,89 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:Double x:Key="LiquidGlassBlurRadius">30.0</sys:Double>
+    <sys:Double x:Key="LiquidGlassBlurSamplingRate">0.8</sys:Double>
+
+    <sys:Double x:Key="LiquidGlassShadowRadius">16.0</sys:Double>
+    <sys:Double x:Key="LiquidGlassShadowOpacity">0.18</sys:Double>
+    <sys:Double x:Key="LiquidGlassShadowDepth">8.0</sys:Double>
+
+    <SolidColorBrush x:Key="LiquidGlassBackground" Color="#C8FFFFFF" />
+    <SolidColorBrush x:Key="LiquidGlassBackgroundAlt" Color="#A8F2F6FB" />
+    <SolidColorBrush x:Key="LiquidGlassBackgroundDeep" Color="#D8FBFBFB" />
+    <SolidColorBrush x:Key="LiquidGlassBackgroundDark" Color="#66101828" />
+
+    <SolidColorBrush x:Key="LiquidGlassEdgeHighlight" Color="#88FFFFFF" />
+    <SolidColorBrush x:Key="LiquidGlassEdgeHighlightStrong" Color="#CCFFFFFF" />
+    <SolidColorBrush x:Key="LiquidGlassEdgeShadow" Color="#22000000" />
+    <SolidColorBrush x:Key="LiquidGlassBorder" Color="#40FFFFFF" />
+    <SolidColorBrush x:Key="LiquidGlassBorderStrong" Color="#80FFFFFF" />
+
+    <LinearGradientBrush x:Key="LiquidGlassSpecularBrush" StartPoint="0,0" EndPoint="0,1">
+        <LinearGradientBrush.GradientStops>
+            <GradientStop Color="#66FFFFFF" Offset="0" />
+            <GradientStop Color="#22FFFFFF" Offset="0.15" />
+            <GradientStop Color="#00FFFFFF" Offset="0.35" />
+            <GradientStop Color="#00FFFFFF" Offset="0.65" />
+            <GradientStop Color="#10FFFFFF" Offset="0.85" />
+            <GradientStop Color="#33FFFFFF" Offset="1" />
+        </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="LiquidGlassRimLightBrush" StartPoint="0,0" EndPoint="1,0">
+        <LinearGradientBrush.GradientStops>
+            <GradientStop Color="#00FFFFFF" Offset="0" />
+            <GradientStop Color="#55FFFFFF" Offset="0.5" />
+            <GradientStop Color="#00FFFFFF" Offset="1" />
+        </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <RadialGradientBrush x:Key="LiquidGlassGlossBrush" Center="0.3,0.15" GradientOrigin="0.3,0.15" RadiusX="0.8" RadiusY="0.5">
+        <RadialGradientBrush.GradientStops>
+            <GradientStop Color="#55FFFFFF" Offset="0" />
+            <GradientStop Color="#00FFFFFF" Offset="0.6" />
+        </RadialGradientBrush.GradientStops>
+    </RadialGradientBrush>
+
+    <LinearGradientBrush x:Key="LiquidGlassChromaticBrush" StartPoint="0,0" EndPoint="1,1">
+        <LinearGradientBrush.GradientStops>
+            <GradientStop Color="#10FFD6A5" Offset="0" />
+            <GradientStop Color="#0800B4FF" Offset="0.5" />
+            <GradientStop Color="#10FF7AB8" Offset="1" />
+        </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <RadialGradientBrush x:Key="LiquidGlassInternalGlowBrush" Center="0.5,0.5" GradientOrigin="0.5,0.5" RadiusX="0.7" RadiusY="0.7">
+        <RadialGradientBrush.GradientStops>
+            <GradientStop Color="#33FFFFFF" Offset="0" />
+            <GradientStop Color="#00FFFFFF" Offset="0.7" />
+        </RadialGradientBrush.GradientStops>
+    </RadialGradientBrush>
+
+    <LinearGradientBrush x:Key="LiquidGlassTopHighlightBrush" StartPoint="0,0" EndPoint="0,1">
+        <LinearGradientBrush.GradientStops>
+            <GradientStop Color="#CCFFFFFF" Offset="0" />
+            <GradientStop Color="#66FFFFFF" Offset="0.15" />
+            <GradientStop Color="#22FFFFFF" Offset="0.4" />
+            <GradientStop Color="#00FFFFFF" Offset="0.7" />
+        </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="LiquidGlassTitleBarBackground" Color="#99FFFFFF" />
+    <SolidColorBrush x:Key="LiquidGlassTitleBarEdge" Color="#AAFFFFFF" />
+
+    <SolidColorBrush x:Key="LiquidGlassHintInfoBackground" Color="#CC1370f3" />
+    <SolidColorBrush x:Key="LiquidGlassHintWarnBackground" Color="#CCf39c12" />
+    <SolidColorBrush x:Key="LiquidGlassHintErrorBackground" Color="#CCe74c3c" />
+    <SolidColorBrush x:Key="LiquidGlassHintSuccessBackground" Color="#CC27ae60" />
+
+    <sys:Double x:Key="LiquidGlassButtonPressScale">0.97</sys:Double>
+    <sys:Double x:Key="LiquidGlassIconButtonPressScale">0.92</sys:Double>
+
+    <CornerRadius x:Key="LiquidGlassCornerRadiusCard">8</CornerRadius>
+    <CornerRadius x:Key="LiquidGlassCornerRadiusButton">6</CornerRadius>
+    <CornerRadius x:Key="LiquidGlassCornerRadiusPill">1000</CornerRadius>
+
+</ResourceDictionary>

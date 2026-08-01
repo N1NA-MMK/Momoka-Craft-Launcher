@@ -1,0 +1,65 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:Double x:Key="ShapeCornerRadiusButton">6</sys:Double>
+    <sys:Double x:Key="ShapeCornerRadiusCard">10</sys:Double>
+    <sys:Double x:Key="ShapeCornerRadiusInput">6</sys:Double>
+    <sys:Double x:Key="ShapeCornerRadiusHint">8</sys:Double>
+    <sys:Double x:Key="ShapeCornerRadiusSmall">4</sys:Double>
+    <sys:Double x:Key="ShapeCornerRadiusPill">100</sys:Double>
+
+    <CornerRadius x:Key="ShapeCornerButton">6,6,6,6</CornerRadius>
+    <CornerRadius x:Key="ShapeCornerCard">10,10,10,10</CornerRadius>
+    <CornerRadius x:Key="ShapeCornerInput">6,6,6,6</CornerRadius>
+    <CornerRadius x:Key="ShapeCornerHint">8,8,8,8</CornerRadius>
+    <CornerRadius x:Key="ShapeCornerSmall">4,4,4,4</CornerRadius>
+
+    <Thickness x:Key="ShapeBorderThickness">1</Thickness>
+    <Thickness x:Key="ShapeBorderThicknessThin">0.75</Thickness>
+    <Thickness x:Key="ShapeBorderThicknessNone">0</Thickness>
+
+    <sys:Double x:Key="ShapeShadowRadius">12</sys:Double>
+    <sys:Double x:Key="ShapeShadowOpacity">0.10</sys:Double>
+    <sys:Double x:Key="ShapeShadowDepth">4</sys:Double>
+
+    <sys:Double x:Key="ShapePaddingButtonH">16</sys:Double>
+    <sys:Double x:Key="ShapePaddingButtonV">8</sys:Double>
+    <Thickness x:Key="ShapePaddingCard">16,12,16,16</Thickness>
+    <Thickness x:Key="ShapePaddingInput">10,6,10,6</Thickness>
+
+    <sys:Double x:Key="ShapeFontSizeBody">13</sys:Double>
+    <sys:Double x:Key="ShapeFontSizeCaption">12</sys:Double>
+
+    <!-- Apple 风格排版层级：size + weight + leading + tracking 协同，而非仅靠 Bold -->
+    <!-- 大标题与标题用负 letter-spacing 收紧；小字号用正 letter-spacing 保证可读 -->
+    <sys:Double x:Key="ShapeFontSizeLargeTitle">26</sys:Double>
+    <sys:Double x:Key="ShapeFontSizeTitle">17</sys:Double>
+    <sys:Double x:Key="ShapeFontSizeHeader">15</sys:Double>
+    <sys:Double x:Key="ShapeFontSizeSubhead">14</sys:Double>
+
+    <!-- 行高（WPF LineHeight，单位 px）。大字号紧凑，正文宽松 -->
+    <sys:Double x:Key="ShapeLineHeightBody">19</sys:Double>
+    <sys:Double x:Key="ShapeLineHeightTitle">22</sys:Double>
+    <sys:Double x:Key="ShapeLineHeightLargeTitle">30</sys:Double>
+
+    <!-- 字间距（WPF 用 Typography.Spacing 不通用，这里用负数表示收紧，供代码端 TranslateTransform/字符间距模拟） -->
+    <!-- 实际在 TextBlock 上通过绑定时按字号选择 -->
+    <sys:Double x:Key="ShapeTrackingLargeTitle">-0.4</sys:Double>
+    <sys:Double x:Key="ShapeTrackingTitle">-0.2</sys:Double>
+    <sys:Double x:Key="ShapeTrackingBody">0</sys:Double>
+    <sys:Double x:Key="ShapeTrackingCaption">0.1</sys:Double>
+
+    <sys:Double x:Key="ShapeSpacingUnit">4</sys:Double>
+
+    <sys:Double x:Key="ShapeControlHeight">32</sys:Double>
+    <sys:Double x:Key="ShapeControlHeightLarge">40</sys:Double>
+
+    <!-- 内容区通用间距：页面内边距、卡片间距、卡片内边距。
+         统一各页面的硬编码值，跟随密度配置变化 -->
+    <Thickness x:Key="ShapePagePadding">25,25,25,10</Thickness>
+    <Thickness x:Key="ShapeCardMargin">0,0,0,15</Thickness>
+    <Thickness x:Key="ShapeCardContentPadding">25,38,23,15</Thickness>
+
+</ResourceDictionary>
