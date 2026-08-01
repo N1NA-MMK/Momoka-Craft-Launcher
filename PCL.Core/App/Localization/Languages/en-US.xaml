@@ -3173,6 +3173,7 @@
     <sys:String x:Key="Setup.Ui.Theme.Color.Hmcl">HMCL</sys:String>
     <sys:String x:Key="Setup.Ui.Theme.Color.Custom">Custom</sys:String>
     <sys:String x:Key="Setup.Ui.Theme.Color.SkyBlue">Sky Blue</sys:String>
+    <sys:String x:Key="Setup.Ui.Theme.Color.PinkBlue">Pink-Blue</sys:String>
     <sys:String x:Key="Setup.Ui.Theme.Custom.Hue">Hue</sys:String>
     <sys:String x:Key="Setup.Ui.Theme.Custom.Sat">Saturation</sys:String>
     <sys:String x:Key="Setup.Ui.Theme.Custom.Light">Lightness</sys:String>

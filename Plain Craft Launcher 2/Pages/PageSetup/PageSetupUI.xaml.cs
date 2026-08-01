@@ -19,7 +19,8 @@ public partial class PageSetupUI
         Lang.Text("Setup.Ui.Theme.Color.CatBlue"),
         Lang.Text("Setup.Ui.Theme.Color.CrashBlue"),
         Lang.Text("Setup.Ui.Theme.Color.Hmcl"),
-        Lang.Text("Setup.Ui.Theme.Color.Custom")
+        Lang.Text("Setup.Ui.Theme.Color.Custom"),
+        Lang.Text("Setup.Ui.Theme.Color.PinkBlue")
     ];
     
     public new bool isLoaded;

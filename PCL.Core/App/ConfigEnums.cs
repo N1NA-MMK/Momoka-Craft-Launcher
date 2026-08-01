@@ -29,7 +29,9 @@ public enum ColorTheme
     DeathBlue = 2,
     HmclBlue = 3,
     /// <summary>自定义主题色，由 UiLauncherHue/Sat/Light/Delta 控制。</summary>
-    Custom = 4
+    Custom = 4,
+    /// <summary>粉蓝渐变主题，色相随明度等级从粉色过渡到蓝色。</summary>
+    PinkBlue = 5
 }
 
 /// <summary>
